@@ -1,0 +1,30 @@
+{
+  "name": "vue-testing-refresh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha-webpack --webpack-config webpack.config.js test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvmk/vue-testing-refresh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vvmk/vue-testing-refresh/issues"
+  },
+  "homepage": "https://github.com/vvmk/vue-testing-refresh#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "mocha": "^6.0.2",
+    "mocha-webpack": "^2.0.0-beta.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.29.6"
+  }
+}
