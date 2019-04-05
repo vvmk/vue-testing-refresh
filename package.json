@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha-webpack --webpack-config webpack.config.js test/*.spec.js"
+    "test": "mocha-webpack --webpack-config webpack.config.js --require test/setup.js test/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,9 @@
   },
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.29",
+    "expect": "^24.7.1",
+    "jsdom": "^14.0.0",
+    "jsdom-global": "^3.0.2",
     "mocha": "^6.0.2",
     "mocha-webpack": "^2.0.0-beta.0",
     "vue-template-compiler": "^2.6.10",
